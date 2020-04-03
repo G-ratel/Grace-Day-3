@@ -1,0 +1,100 @@
+body {
+    background: url(elegant.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100%;
+    width:100%;
+    font-family: Graphik, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	padding: 0;
+	margin: 0;
+}
+.container {
+    background-color: rgb(231, 208, 170);
+	width: 410px;
+	height: 390px;
+	margin-left: 34%;
+    margin-top: 10%;
+    margin-bottom: 1%;
+	padding: 10px;
+	border-radius: 5px;
+}
+.logintext{
+	text-align: center;
+	font-family: inherit;
+	font-size: 17px;
+    font-weight: bold;
+    color: rgb(77, 66, 49);
+	margin-top: 70px;
+	letter-spacing: 1px;
+}
+.loginform {
+	padding: 20px;
+}
+input[type=email] {
+	width: 100%;
+	display: inline-block;
+	padding: 8px 14px;
+	margin: 4px 0;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	font-family: inherit;
+	font-size: 12px;
+	margin-bottom: 4%;
+}
+input[type=email]:focus {
+	border-color: #dee5e7;
+	border-radius: 4px;
+}
+input[type=password] {
+	width: 100%;
+	display: inline-block;
+	padding: 8px 14px;
+	margin: 4px 0;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	font-family: inherit;
+	font-size: 12px;
+	margin-bottom: 4%;
+}
+.button{
+	width: 100%;
+	background-color: rgb(92, 79, 59);
+	padding: 8px 20px;
+	margin: 3px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 1.42857143;
+	text-transform: none;
+	text-align: center;
+	color: #FFFFFF;
+	margin-top: 2%;
+}
+
+.newaccount a{
+	background-color: transparent;
+	color: rgb(65, 61, 61);
+	text-decoration: none;
+	cursor: pointer;
+	text-align: center;
+	font-size: 12px
+}
+a:hover{
+	text-decoration: underline;
+	font-size: 12px
+}
+.forgot {
+	margin-top: -15px;
+	text-align: center;
+}
+button:hover {
+    background: rgb(129, 111, 83);
+} 
+button:active {
+    background: rgb(94, 81, 60);
+    box-shadow: 0 0 0 transparent;
+} 
